@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="vi">
+
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>BOOTSTRAP 3</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+      <!-- Converted from less -->
+      <link href="css/styles.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- font -->
+  </head>
+  <body>
+    <header>
+      <!-- Menu -->
+      <nav class="navbar navbar-default navbar-light bg-light menu">
+        <div class="container">
+          <div class="navbar-header navbar-left">
+            <a class="navbar-brand" href="#">
+              <i class="fa fa-calendar"></i>
+              EVENT<span>CLASSIFIED </span>
+            </a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topmenu">
+              <span><i class="fa fa-bars"></i></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="topmenu">
+            <ul class="nav navbar-nav navbar-left">
+              <li><a href="#feature">Browse Events</a></li>
+              <li><a href="#download">Host Event</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" id="dropdownMenu" data-toggle="dropdown">JOHN DOE
+                    <i class="fa fa-user"></i>
+                    <i class="fa fa-chevron-down"></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                    <li class="dropdown-item"><a href="#">
+                      <i class="glyphicon glyphicon-home"></i> Personal Home
+                    </a></li>
+                    <li class="dropdown-item"><a href="#">
+                      <i class="glyphicon glyphicon-th-large"></i> My ads
+                    </a></li>
+                    <li class="dropdown-item"><a href="#">
+                      <i class="glyphicon glyphicon-heart"></i> Favourite ads
+                    </a></li>
+                    <li class="dropdown-item"><a href="#">
+                      <i class="glyphicon glyphicon-star"></i> Saved search
+                    </a></li>
+                    <li class="dropdown-item"><a href="#">
+                      <i class="fa fa-folder"></i> Archived ads
+                    </a></li>
+                    <li class="dropdown-item"><a href="#">
+                      <i class="fa fa-hourglass"></i> Pending approval
+                    </a></li>
+                    <li class="dropdown-item"><a href="#">
+                      <i class="fa fa-money"></i> Payment history
+                    </a></li>
+                    <li class="dropdown-item"><a href="#">
+                      <i class="fa fa-sign-out"></i> Saved search
+                    </a></li>
+                  </ul>
+              </li>
+              <li><a href="#" class="btn-create">Create Event</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+    <!-- End menu -->
+
+    <!-- Banner -->
+    <section class="banner">
+      <div class="container banner-content">
+        <p>BROWSE EVENT</p>
+        <h2>Events Classified</h2>
+        <div class="input-group">
+          <input type="text" class="search-event" placeholder="Search event nearby">
+          <input type="text" class="search-city" placeholder="City or location">
+          <input type="submmit" class="btn-search" value="SEARCH">
+        </div>
+      </div>
+    </section>
+    <!-- End banner -->
+
+    <!-- Features -->
+    <section class="features">
+      <p class="title">FEATURED EVENTS IN NEWYORK</p>
+      <div class="container features-content">
+        <div class="row features-card">
+          <!-- Item 1 -->
+          <div class="card-item col-xs-6 col-md-3" id="#card-1">
+            <div class="card-body">
+              <img src="images/features1.jpg" alt="features1">
+              <div class="card-content">
+                <p class="badge">feature</p>
+                <div class="clearfix"></div>
+                <p class="price">$120.00</p>
+                <p class="author">by Sports Olc</p>
+                <p class="time">
+                  <i class="fa fa-calendar"></i>
+                  Starts on Fri, Jan 19
+                </p>
+              </div>
+            </div>
+            <div class="card-footer">The Ultimate Deal On Race</div>
+          </div>
+          <!-- Item 2 -->
+          <div class="card-item col-xs-6 col-md-3" id="#card-2">
+            <div class="card-body">
+              <img src="images/features2.jpg" alt="features1">
+              <div class="card-content">
+                <p class="badge">feature</p>
+                <div class="clearfix"></div>
+                <p class="price">$20.00</p>
+                <p class="author">by Global Eve</p>
+                <p class="time">
+                  <i class="fa fa-calendar"></i>
+                  Starts on Mon, Sept 18
+                </p>
+              </div>
+            </div>
+            <div class="card-footer">The Ultimate Deal On Race</div>
+          </div>
+          <!-- Item 3 -->
+          <div class="card-item col-xs-6 col-md-3" id="#card-3">
+            <div class="card-body">
+              <img src="images/features3.jpg" alt="features1">
+              <div class="card-content">
+                <p class="badge">feature</p>
+                <div class="clearfix"></div>
+                <p class="price">$80.00</p>
+                <p class="author">by Concert & Fest.</p>
+                <p class="time">
+                  <i class="fa fa-calendar"></i>
+                  Starts on Wed, Oct 18
+                </p>
+              </div>
+            </div>
+            <div class="card-footer">The Ultimate Deal On Race</div>
+          </div>
+          <!-- Item 4 -->
+          <div class="card-item col-xs-6 col-md-3" id="#card-4">
+            <div class="card-body">
+              <img src="images/features4.jpg" alt="features1">
+              <div class="card-content">
+                <p class="badge">feature</p>
+                <div class="clearfix"></div>
+                <p class="price">$60.00</p>
+                <p class="author">by Rock Nat. </p>
+                <p class="time">
+                  <i class="fa fa-calendar"></i>
+                  Starts on Sat, Dec 18
+                </p>
+              </div>
+            </div>
+            <div class="card-footer">The Ultimate Deal On Race</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End features -->
+
+    <!-- Explore event -->
+    <section class="explore-event">
+      <div class="explore-head container">
+        <div class="col-sm-4 explore-title">
+          <p>EXPLORE YOUR EVENTS</p>
+        </div>
+        <div class="button col-sm-8">
+          <div class="btn-group col-sm-3">
+            <button type="button" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown">
+              Featured Event <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Featured Event</a></li>
+              <li><a href="#">New added</a></li>
+              <li><a href="#">Popular</a></li>
+              <li><a href="#">Recommended</a></li>
+            </ul>
+          </div>
+          <div class="btn-group col-sm-3">
+            <button type="button" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown">
+              By Date <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#">All Events</a></li>
+              <li><a href="#">Today</a></li>
+              <li><a href="#">This week</a></li>
+              <li><a href="#">Next Month</a></li>
+            </ul>
+          </div>
+          <div class="btn-group col-sm-3">
+            <button type="button" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown">
+              By Location <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#">5 miles from zip</a></li>
+              <li><a href="#">5 miles from zip</a></li>
+              <li><a href="#">5 miles from zip</a></li>
+              <li><a href="#">10 miles from zip</a></li>
+            </ul>
+          </div>
+          <div class="btn-group dropup col-sm-3">
+            <button type="button" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown">
+              By Category <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <input type="checkbox">Popular
+              </li>
+              <li>
+                <input type="checkbox">Music
+              </li>
+              <li>
+                <input type="checkbox">Food and drink
+              </li>
+              <li>
+                <input type="checkbox">Business
+              </li>
+              <li>
+                <input type="checkbox">Technology
+              </li>
+              <li>
+                <input type="checkbox">Sport and Fitness
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="explore-event-body container">
+        <div class="row explore-card">
+          <!-- Item 1 -->
+          <div class="card card-item col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-4" id="event1">
+            <div class="card-header">
+              <div class="header-content">
+                <p class="badge">FREE</p>
+              </div>
+              <div class="card-overlap">
+                <p class="badge">TOP RATED</p>
+                <div class="clearfix"></div>
+                <p class="type">FREE</p>
+                <p>by Viagrand</p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>
+                  <span>5.0</span> |
+                  <span>101 review</span>
+                </p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Exercitation consequat aliqua et nulla nostrud duis mollit</h5>
+              <p class="card-text"><i class="fa fa-map-marker"></i> Valle, Louisiana, 1259</p>
+              <p class="card-text"><i class="fa fa-calendar"></i> 2018-03-19 03:08pm</p>
+            </div>
+            <div class="card-footer">
+              <div class="author">by <strong>Parrish Zamora</strong></div>
+              <div class="share">
+                <i class="fa fa-share-alt"></i>
+                <i class="fa fa-heart"></i>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="card card-item col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-4" id="event2">
+            <div class="card-header">
+              <div class="header-content">
+                <p class="badge">$292</p>
+              </div>
+              <div class="card-overlap">
+                <p class="badge">TOP RATED</p>
+                <div class="clearfix"></div>
+                <p class="type">$292</p>
+                <p>by Musix</p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>
+                  <span>5.0</span> |
+                  <span>101 review</span>
+                </p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Aute ea proident labore nulla pariatur quis aliqua</h5>
+              <p class="card-text"><i class="fa fa-map-marker"></i> Seymour, Kentucky, 3314</p>
+              <p class="card-text"><i class="fa fa-calendar"></i> 2018-04-01 11:05pm</p>
+            </div>
+            <div class="card-footer">
+              <div class="author">by <strong>Calderon White</strong></div>
+              <div class="share">
+                <i class="fa fa-share-alt"></i>
+                <i class="fa fa-heart"></i>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="card card-item col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-4" id="event3">
+            <div class="card-header">
+              <div class="header-content">
+                <p class="badge">$354</p>
+              </div>
+              <div class="card-overlap">
+                <p class="badge">TOP RATED</p>
+                <div class="clearfix"></div>
+                <p class="type">$354</p>
+                <p>by Zaggles</p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>
+                  <span>5.0</span> |
+                  <span>101 review</span>
+                </p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Culpa qui ut sint voluptate nisi sunt reprehenderit</h5>
+              <p class="card-text"><i class="fa fa-map-marker"></i> Vincent, Missouri, 1554</p>
+              <p class="card-text"><i class="fa fa-calendar"></i> 2018-03-07 12:29pm</p>
+            </div>
+            <div class="card-footer">
+              <div class="author">by <strong>Beatriz Norris</strong></div>
+              <div class="share">
+                <i class="fa fa-share-alt"></i>
+                <i class="fa fa-heart"></i>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="card card-item col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-4" id="event4">
+            <div class="card-header">
+              <div class="header-content">
+                <p class="badge">$159</p>
+              </div>
+              <div class="card-overlap">
+                <p class="badge">TOP RATED</p>
+                <div class="clearfix"></div>
+                <p class="type">$159</p>
+                <p>by Callfex</p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>
+                  <span>5.0</span> |
+                  <span>101 review</span>
+                </p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Nulla cillum dolore nulla dolore do elit aliquip</h5>
+              <p class="card-text"><i class="fa fa-map-marker"></i> Springville, Arizona, 6924</p>
+              <p class="card-text"><i class="fa fa-calendar"></i> 2018-01-05 09:26pm</p>
+            </div>
+            <div class="card-footer">
+              <div class="author">by <strong>Kerri Stevenson</strong></div>
+              <div class="share">
+                <i class="fa fa-share-alt"></i>
+                <i class="fa fa-heart"></i>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="card card-item col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-4" id="event5">
+            <div class="card-header">
+              <div class="header-content">
+                <p class="badge">FREE</p>
+              </div>
+              <div class="card-overlap">
+                <p class="badge">TOP RATED</p>
+                <div class="clearfix"></div>
+                <p class="type">FREE</p>
+                <p>by Exodoc</p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>
+                  <span>5.0</span> |
+                  <span>101 review</span>
+                </p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Ex ullamco exercitation deserunt occaecat dolore excepteur quis</h5>
+              <p class="card-text"><i class="fa fa-map-marker"></i> Singer, Iowa, 1079</p>
+              <p class="card-text"><i class="fa fa-calendar"></i> 2018-02-01 07:23pm</p>
+            </div>
+            <div class="card-footer">
+              <div class="author">by <strong>Good Moore</strong></div>
+              <div class="share">
+                <i class="fa fa-share-alt"></i>
+                <i class="fa fa-heart"></i>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <!-- Item 6 -->
+          <div class="card card-item col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-4" id="event6">
+            <div class="card-header">
+              <div class="header-content">
+                <p class="badge">$179</p>
+              </div>
+              <div class="card-overlap">
+                <p class="badge">TOP RATED</p>
+                <div class="clearfix"></div>
+                <p class="type">$179</p>
+                <p>by Austex</p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>
+                  <span>5.0</span> |
+                  <span>101 review</span>
+                </p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Velit aute exercitation ut labore quis velit culpa</h5>
+              <p class="card-text"><i class="fa fa-map-marker"></i> Belvoir, North Carolina, 5102</p>
+              <p class="card-text"><i class="fa fa-calendar"></i> 2018-01-01 02:06pm</p>
+            </div>
+            <div class="card-footer">
+              <div class="author">by <strong>Baxter Henderson</strong></div>
+              <div class="share">
+                <i class="fa fa-share-alt"></i>
+                <i class="fa fa-heart"></i>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <!-- Item 7 -->
+          <div class="card card-item col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-4" id="event7">
+            <div class="card-header">
+              <div class="header-content">
+                <p class="badge">$167</p>
+              </div>
+              <div class="card-overlap">
+                <p class="badge">TOP RATED</p>
+                <div class="clearfix"></div>
+                <p class="type">$167</p>
+                <p>by Zillacom</p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>
+                  <span>5.0</span> |
+                  <span>101 review</span>
+                </p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Minim duis amet elit nostrud adipisicing tempor occaecat</h5>
+              <p class="card-text"><i class="fa fa-map-marker"></i> Boonville, Florida, 8794</p>
+              <p class="card-text"><i class="fa fa-calendar"></i> 2018-03-21 04:21pm</p>
+            </div>
+            <div class="card-footer">
+              <div class="author">by <strong>Angelita Potts</strong></div>
+              <div class="share">
+                <i class="fa fa-share-alt"></i>
+                <i class="fa fa-heart"></i>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <!-- Item 8 -->
+          <div class="card card-item col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-4" id="event8">
+            <div class="card-header">
+              <div class="header-content">
+                <p class="badge">$120</p>
+              </div>
+              <div class="card-overlap">
+                <p class="badge">TOP RATED</p>
+                <div class="clearfix"></div>
+                <p class="type">$120</p>
+                <p>by Zillacom</p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>
+                  <span>5.0</span> |
+                  <span>101 review</span>
+                </p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Minim duis amet elit nostrud adipisicing tempor occaecat</h5>
+              <p class="card-text"><i class="fa fa-map-marker"></i> Boonville, Florida, 8794</p>
+              <p class="card-text"><i class="fa fa-calendar"></i> 2018-03-21 04:21pm</p>
+            </div>
+            <div class="card-footer">
+              <div class="author">by <strong>Angelita Potts</strong></div>
+              <div class="share">
+                <i class="fa fa-share-alt"></i>
+                <i class="fa fa-heart"></i>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <!-- Item 9 -->
+          <div class="card card-item col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-4" id="event9">
+            <div class="card-header">
+              <div class="header-content">
+                <p class="badge">$120</p>
+              </div>
+              <div class="card-overlap">
+                <p class="badge">TOP RATED</p>
+                <div class="clearfix"></div>
+                <p class="type">$120</p>
+                <p>by Insectus</p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>
+                  <span>5.0</span> |
+                  <span>101 review</span>
+                </p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Aliqua amet adipisicing eu Lorem aliqua laborum cupidatat</h5>
+              <p class="card-text"><i class="fa fa-map-marker"></i> Sanford, Idaho, 6419</p>
+              <p class="card-text"><i class="fa fa-calendar"></i> 2018-03-04 02:20pm</p>
+            </div>
+            <div class="card-footer">
+              <div class="author">by <strong>Nell Hopper</strong></div>
+              <div class="share">
+                <i class="fa fa-share-alt"></i>
+                <i class="fa fa-heart"></i>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <div class="more">
+          <a href="#" class="btn-load-more">
+            <i class="fa fa-plus"></i>
+            LOAD MORE
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End explore event -->
+
+    <!-- Category -->
+    <section class="category">
+      <p class="title">EXPLORE BY CATEGORY</p>
+      <div class="container">
+        <div class="row category-card">
+          <!-- Cate 1 -->
+          <div class="card-item col-xs-6 col-sm-3">
+            <div class="card-img" id="cate-1">
+              <div class="card-content">
+                <p>Fitness</p>
+              </div>
+            </div>
+          </div>
+          <!-- Cate 2 -->
+          <div class="card-item col-xs-6 col-sm-3">
+            <div class="card-img" id="cate-2">
+              <div class="card-content">
+                <p>Travel</p>
+              </div>
+            </div>
+          </div>
+          <!-- Cate 3 -->
+          <div class="card-item col-xs-6 col-sm-3">
+            <div class="card-img" id="cate-3">
+              <div class="card-content">
+                <p>Music</p>
+              </div>
+            </div>
+          </div>
+          <!-- Cate 4 -->
+          <div class="card-item col-xs-6 col-sm-3">
+            <div class="card-img" id="cate-4">
+              <div class="card-content">
+                <p>Learning</p>
+              </div>
+            </div>
+          </div>
+          <!-- Cate 5 -->
+          <div class="card-item col-xs-6 col-sm-3">
+            <div class="card-img" id="cate-5">
+              <div class="card-content">
+                <p>Photography</p>
+              </div>
+            </div>
+          </div>
+          <!-- Cate 6 -->
+          <div class="card-item col-xs-6 col-sm-3">
+            <div class="card-img" id="cate-6">
+              <div class="card-content">
+                <p>Opera</p>
+              </div>
+            </div>
+          </div>
+          <!-- Cate 7 -->
+          <div class="card-item col-xs-6 col-sm-3">
+            <div class="card-img" id="cate-7">
+              <div class="card-content">
+                <p>Tennis</p>
+              </div>
+            </div>
+          </div>
+          <!-- Cate 8 -->
+          <div class="card-item col-xs-6 col-sm-3">
+            <div class="card-img" id="cate-8">
+              <div class="card-content">
+                <p>Education</p>
+              </div>
+            </div>
+          </div>
+          <!-- Cate 9 -->
+          <div class="card-item col-xs-6 col-sm-3">
+            <div class="card-img" id="cate-9">
+              <div class="card-content">
+                <p>Running</p>
+              </div>
+            </div>
+          </div>
+          <!-- Cate 10 -->
+          <div class="card-item col-xs-6 col-sm-3">
+            <div class="card-img" id="cate-10">
+              <div class="card-content">
+                <p>Video Games</p>
+              </div>
+            </div>
+          </div>
+          <!-- Cate 11 -->
+          <div class="card-item col-xs-6 col-sm-3">
+            <div class="card-img" id="cate-11">
+              <div class="card-content">
+                <p>Fashion & Beauty</p>
+              </div>
+            </div>
+          </div>
+          <!-- Cate 12 -->
+          <div class="card-item col-xs-6 col-sm-3">
+            <div class="card-img" id="cate-12">
+              <div class="card-content">
+                <p>Food</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Category -->
+
+    <!-- Analyst -->
+    <section class="analyst">
+      <div class="container">
+        <div class="row analyst-card">
+          <!-- Analyst 1 -->
+          <div class="card-item col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-3">
+            <div class="card-icon">
+              <i class="fa fa-group"></i>
+            </div>
+            <div class="card-content">
+              <p class="number">100+</p>
+              <p>EVENTS</p>
+            </div>
+          </div>
+          <!-- Analyst 2 -->
+          <div class="card-item col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-3">
+            <div class="card-icon">
+              <i class="glyphicon glyphicon-th-large"></i>
+            </div>
+            <div class="card-content">
+              <p class="number">100</p>
+              <p>CATEGORIES</p>
+            </div>
+          </div>
+          <!-- Analyst 3 -->
+          <div class="card-item col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-3">
+            <div class="card-icon">
+              <i class="fa fa-map"></i>
+            </div>
+            <div class="card-content">
+              <p class="number">700</p>
+              <p>LOCATION</p>
+            </div>
+          </div>
+          <!-- Analyst 4 -->
+          <div class="card-item col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-3">
+            <div class="card-icon">
+              <i class="fa fa-facebook"></i>
+            </div>
+            <div class="card-content">
+              <p class="number">50,000</p>
+              <p>FACEBOOK FANS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Analyst -->
+
+    <!-- Contact -->
+    <section class="contact">
+      <p class="col-sm-8 col-sm-offset-2">If you have any questions, comments or concerns,
+        please call the Classified Advertising department at (000) 555-5556</p>
+        <div class="clearfix"></div>
+      <a href="#" class="btn-call">
+        <i class="fa fa-mobile"></i> <span> Call now:</span>
+        (000) 555-5555
+      </a>
+    </section>
+    <!-- End contact -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Footer 1 -->
+          <div class="about-us col-xs-6 col-md-2">
+            <p class="footer-title">ABOUT US</p>
+            <ul>
+              <li><a href="#">About Company</a></li>
+              <li><a href="#">For Business</a></li>
+              <li><a href="#">Our Partners</a></li>
+              <li><a href="#">Press Contact</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Events</a></li>
+            </ul>
+          </div>
+          <!-- Footer 2 -->
+          <div class="help-contact col-xs-6 col-md-2">
+            <p class="footer-title">HELP & CONTACT</p>
+            <ul>
+              <li><a href="#">Stay Safe Online</a></li>
+              <li><a href="#">How to Sell</a></li>
+              <li><a href="#">How to Buy</a></li>
+              <li><a href="#">Posting Rules</a></li>
+              <li><a href="#">Promote Your Ad</a></li>
+            </ul>
+          </div>
+          <div class="clearfix visible-xs-block visible-sm-block"></div>
+          <!-- Footer 3 -->
+          <div class="more col-xs-6 col-md-2">
+            <p class="footer-title">MORE FROM US</p>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Popular Searches</a></li>
+              <li><a href="#">Site Map</a></li>
+              <li><a href="#">Customer Reviews</a></li>
+            </ul>
+          </div>
+          <!-- Footer 4 -->
+          <div class="account col-xs-6 col-md-2">
+            <p class="footer-title">ACCOUNT</p>
+            <ul>
+              <li><a href="#">Manage Account</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Register</a></li>
+              <li><a href="#">My ads</a></li>
+              <li><a href="#">Profile</a></li>
+            </ul>
+          </div>
+          <!-- Footer 5 -->
+          <div class="social col-xs-12 col-md-4">
+            <p class="footer-title">MOBILE APPS</p>
+            <div class="get-app">
+              <div class="apple"></div>
+              <div class="google"></div>
+              <div class="clearfix"></div>
+            </div>
+            <p class="footer-title">FOLLOW US ON</p>
+            <div class="btn-social">
+              <a href="#" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Google"><i class="fa fa-google"></i></a>
+              <a href="#" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="#" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Pinterest"><i class="fa fa-pinterest"></i></a>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="javascript/app.js" type="text/javascript" charset="utf-8"></script>
+  </body>
